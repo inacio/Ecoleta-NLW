@@ -7,14 +7,13 @@ export async function up(knex: Knex){
         table.integer('point_id')
         .notNullable()
         .references('id')
-        .inTable('idpoints');
+        .inTable('points');
 
         table.integer('item_id')
         .notNullable()
         .references('id')
         .inTable('items');
         
-        table.integer('title').notNullable();
     });   
 }
 
