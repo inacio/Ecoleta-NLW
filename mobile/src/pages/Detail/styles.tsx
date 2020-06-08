@@ -1,8 +1,13 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Constants } from 'expo';
 
 const styles = StyleSheet.create({
+    safeAreaView:{
+      flex: 1,
+    },
+    backButton:{
+      paddingTop: 30
+    },
     container: {
       flex: 1,
       padding: 32,
@@ -52,8 +57,7 @@ const styles = StyleSheet.create({
     footer: {
       borderTopWidth: StyleSheet.hairlineWidth,
       borderColor: '#999',
-      paddingVertical: 20,
-      paddingHorizontal: 32,
+      padding: 20,
       flexDirection: 'row',
       justifyContent: 'space-between'
     },
