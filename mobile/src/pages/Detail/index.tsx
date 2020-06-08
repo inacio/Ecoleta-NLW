@@ -12,15 +12,8 @@ import styles from './styles';
 const Detail = () => {
   const navigation = useNavigation();
   
-  const url = "http://192.168.0.114:3333/uploads/";
-
-
   function handleNavigateBack(){
     navigation.goBack();
-  }
-
-  function handleNavigateToDetail(){
-    navigation.navigate('Detail');
   }
 
   return (
