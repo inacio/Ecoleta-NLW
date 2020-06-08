@@ -1,7 +1,7 @@
 <h1 align="center"> 
 	🚀 NextLevelWeek :: RocketSeat
 </h1>
-<h4 align="center"> By Inácio Régis</h4>
+<h4 align="center"> By Inácio Régis - using Node.js, React, React Native, Expo </h4>
 <br/>
 <div> 
 <img align="center" alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="400px" />
